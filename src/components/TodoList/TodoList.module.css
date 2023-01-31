@@ -1,0 +1,13 @@
+.container{
+background-color: var(--color-transperent);
+display: flex;
+flex-direction: column;
+position: relative;
+min-height: 0;
+height: 100%;
+}
+.itemList{
+    flex: 1 1 auto;
+    overflow-y: auto;
+    padding: 6px;
+}

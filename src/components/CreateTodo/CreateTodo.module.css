@@ -1,0 +1,30 @@
+.form{
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 2px solid var(--color-basic-bar);
+    position: relative;
+}
+.newTodo{
+font-size: 30px;
+border-style: none;
+outline: none;
+color: var(--color-basic-bl);
+width: 80%;
+border-radius: 10px;
+padding: 5px;
+}
+.btnAdd{
+    border-style: none;
+    font-size: 35px;
+    color: var(--color-text);
+    margin-top: 10px;
+    background-color: var(--color-transperent);
+    transition: all 200ms ease-out;
+}
+
+.btnAdd:hover{
+    transform: scale(1.1);
+    color:var(--color-basic-red);
+}

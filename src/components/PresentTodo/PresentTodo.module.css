@@ -1,0 +1,29 @@
+.lined{
+    text-decoration: line-through;
+}
+.todoItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color-text);
+    padding-left:10px;
+    border-bottom:1px dotted var(--color-text) ;
+}
+.btnBox{
+background-color: var( --color-transperent);
+color: var(--color-text);
+display: flex;
+align-items: center;
+justify-content: space-around;
+padding: 5px;
+
+
+}
+.btnCheck,
+.btnDelete{
+    border: none;
+    outline: none;
+    color: var(--color-text);
+    font-size: 20px;
+    background-color: var( --color-transperent);
+}
